@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_376477_atf.admin" name="x_376477_atf.admin">5c494f652f313110afddbea62799b67d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 14:36:36</sys_created_on>
+        <sys_id>18494f652f313110afddbea62799b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5c494f652f313110afddbea62799b67d</sys_name>
+        <sys_package display_value="ATF" source="x_376477_atf">3d3907a12f313110afddbea62799b6cf</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ATF">3d3907a12f313110afddbea62799b6cf</sys_scope>
+        <sys_update_name>sys_embedded_help_role_18494f652f313110afddbea62799b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 14:36:36</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
