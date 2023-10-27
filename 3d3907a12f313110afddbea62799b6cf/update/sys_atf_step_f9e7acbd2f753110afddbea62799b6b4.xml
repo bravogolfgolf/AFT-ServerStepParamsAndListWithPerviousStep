@@ -3,27 +3,28 @@
         <active>true</active>
         <copied_from/>
         <description>Update a record in 'x_376477_atf_investigate' with the following values:
-List = {{Step 1: Create a User.User}},{{Step 2: Create a User.User}}
+List = {{Step 2: Create a User.User}},{{Step 3: Create a User.User}}
+and Date = {{Step 1: Set Date.Date}}
 Confirm the record was successfully updated</description>
         <display_name>Record Update</display_name>
         <inputs/>
         <inputs/>
         <mugshots_cache_json/>
         <notes>{{step['d6c76cbd2f753110afddbea62799b616'].user}},{{step['7ea7a07d2f753110afddbea62799b6b1'].user}}</notes>
-        <order>5</order>
+        <order>6</order>
         <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 21:31:34</sys_created_on>
         <sys_id>f9e7acbd2f753110afddbea62799b6b4</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Record Update</sys_name>
         <sys_package display_value="ATF" source="x_376477_atf">3d3907a12f313110afddbea62799b6cf</sys_package>
         <sys_policy/>
         <sys_scope display_value="ATF">3d3907a12f313110afddbea62799b6cf</sys_scope>
         <sys_update_name>sys_atf_step_f9e7acbd2f753110afddbea62799b6b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 21:43:28</sys_updated_on>
+        <sys_updated_on>2023-10-11 14:15:32</sys_updated_on>
         <table>x_376477_atf_investigate</table>
         <test display_value="ATF - Investigate">7f0b8b292f313110afddbea62799b64e</test>
         <timeout/>
@@ -80,10 +81,10 @@ Confirm the record was successfully updated</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 21:31:34</sys_created_on>
         <sys_id>c3386cbd2f753110afddbea62799b668</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 21:43:28</sys_updated_on>
-        <value>list={{step['d6c76cbd2f753110afddbea62799b616'].user}},{{step['7ea7a07d2f753110afddbea62799b6b1'].user}}^EQ</value>
+        <sys_updated_on>2023-10-11 14:15:32</sys_updated_on>
+        <value>list={{step['d6c76cbd2f753110afddbea62799b616'].user}},{{step['7ea7a07d2f753110afddbea62799b6b1'].user}}^date={{step['a1ed80062ff17110afddbea62799b623'].u_date}}^EQ</value>
         <variable display_value="Field values">bc4c43935320220002c6435723dc34a2</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -107,11 +108,11 @@ Confirm the record was successfully updated</description>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 21:31:34</sys_created_on>
         <sys_id>47386cbd2f753110afddbea62799b667</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-10 21:43:28</sys_updated_on>
+        <sys_updated_on>2023-10-11 14:15:32</sys_updated_on>
         <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
-        <value>list={{step['d6c76cbd2f753110afddbea62799b616'].user}},{{step['7ea7a07d2f753110afddbea62799b6b1'].user}}^EQ</value>
+        <value>list={{step['d6c76cbd2f753110afddbea62799b616'].user}},{{step['7ea7a07d2f753110afddbea62799b6b1'].user}}^date={{step['a1ed80062ff17110afddbea62799b623'].u_date}}^EQ</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record_id</field>
